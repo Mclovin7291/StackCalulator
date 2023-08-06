@@ -1,1 +1,4 @@
 # StackCalulator
+The code parses a given arithmetic expression and uses two stacks—one for values and one for operators—to evaluate the expression following the standard operator precedence rules. The calculate method processes each character in the expression, and the operate method performs the actual arithmetic operations. The precedence method helps determine whether an operator has higher precedence than another. The code handles scenarios like parentheses and division by zero, throwing an exception in the latter case. After processing, the code returns the final result of the expression.
+
+Several example inputs and outputs are provided in the comments at the end of the code for reference. The time complexity is constant (O(1)) as it processes each character of the expression only once, and the space complexity is also constant (O(1)) as the size of the stacks remains bounded.
